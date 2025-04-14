@@ -7,6 +7,8 @@ var urlRegex=/^(https?:\/\/)?(www\.)?[a-zA-Z0-9-]+\.[a-z]{2,}([\/\w.-]*)*\/?$/
 var customModal =document.getElementById("customModal")
 // var closeDialogBtn =document.getElementById("closeDialogBtn")
 
+
+
 // *App variables
 var siteList =JSON.parse(localStorage.getItem("sites"))||[]
 displayAllSites()
